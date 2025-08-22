@@ -56,7 +56,7 @@
 &trans        &kp F1  &kp F2   &kp F3    &kp F4        &bt BT_NXT    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp UP_ARROW    &kp C_BRIGHTNESS_INC  &kp INSERT   &kp DELETE
 &kp CAPSLOCK  &kp F5  &kp F6   &kp F7    &kp F8        &bt BT_PRV    &kp C_VOLUME_DOWN  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT             &kp HOME     &kp END
 &trans        &kp F9  &kp F10  &kp F11   &kp F12       &bt BT_CLR    &kp K_MUTE         &trans                &trans          &trans                &kp PAGE_UP  &kp PAGE_DOWN
-                               &kp LGUI  &kp LEFT_ALT  &kp SPACE     &kp RET            &trans                &trans
+                               &kp LGUI  &kp LEFT_ALT  &trans        &trans             &trans                &trans
             >;
         };
     };
