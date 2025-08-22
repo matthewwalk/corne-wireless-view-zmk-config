@@ -21,10 +21,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S     &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
+&kp TAB       &kp Q  &kp W  &kp F      &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LEFT_GUI  &kp A  &kp R  &kp S      &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT     &kp Z  &kp X  &kp C      &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                            &kp LCTRL  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -37,7 +37,7 @@
 
             display-name = "Lower";
             bindings = <
-&kp GRAVE  &kp N1           &kp N2       &kp N3     &kp N4          &kp N5             &kp N6            &kp N7             &kp N8         &kp N9                &kp N0                 &trans
+&kp GRAVE  &kp N1           &kp N2       &kp N3     &kp N4          &kp N5             &kp N6            &kp N7             &kp N8         &kp N9                &kp N0                 &kp ESCAPE
 &trans     &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR      &kp PERCENT        &kp CARET         &kp AMPS           &kp STAR       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &trans     &kp EQUAL        &kp MINUS    &kp PLUS   &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp BACKSLASH          &trans
                                          &kp LGUI   &trans          &kp SPACE          &kp RET           &trans             &kp RALT
@@ -53,10 +53,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3    &kp F4   &bt BT_NXT    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp UP_ARROW    &kp C_BRIGHTNESS_INC  &kp INSERT  &kp DELETE
-&trans  &kp F5  &kp F6   &kp F7    &kp F8   &bt BT_PRV    &kp C_VOLUME_DOWN  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT             &kp HOME    &kp CAPSLOCK
-&trans  &kp F9  &kp F10  &kp F11   &kp F12  &bt BT_CLR    &kp K_MUTE         &trans                &kp LS(HOME)    &trans                &trans      &kp END
-                         &kp LGUI  &trans   &kp SPACE     &kp RET            &trans                &kp RALT
+&trans        &kp F1  &kp F2   &kp F3    &kp F4   &bt BT_NXT    &kp C_VOLUME_UP    &kp C_BRIGHTNESS_DEC  &kp UP_ARROW    &kp C_BRIGHTNESS_INC  &kp INSERT   &kp DELETE
+&kp CAPSLOCK  &kp F5  &kp F6   &kp F7    &kp F8   &bt BT_PRV    &kp C_VOLUME_DOWN  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT             &kp HOME     &kp END
+&trans        &kp F9  &kp F10  &kp F11   &kp F12  &bt BT_CLR    &kp K_MUTE         &trans                &trans          &trans                &kp PAGE_UP  &kp PAGE_DOWN
+                               &kp LGUI  &trans   &kp SPACE     &kp RET            &trans                &kp RALT
             >;
         };
     };
