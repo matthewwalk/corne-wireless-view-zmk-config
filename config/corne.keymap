@@ -79,7 +79,7 @@
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
-            label = "Adjacent";
+            label = "Adjust";
         };
     };
 
@@ -87,7 +87,7 @@
         compatible = "zmk,conditional-layers";
 
         adj_active {
-            if-layers = <3 3>;
+            if-layers = <2 3>;
             then-layer = <4>;
         };
     };
